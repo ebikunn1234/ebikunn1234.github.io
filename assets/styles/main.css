@@ -3,3 +3,22 @@ body{
     background-image: url(../images/haikei.png);
     background-size: contain;
 }
+
+.banner-rift-rooms {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto
+}
+.banner-rift-rooms img {
+    width: 100%;
+}
+.banner-BlitzWars {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto
+}
+.banner-BlitzWars img {
+    width: 100%;
+}
