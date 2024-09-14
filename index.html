@@ -16,11 +16,21 @@
     <meta property="og:description" content="えびの作成ラボの公式サイト。">
     <meta property="og:url" content="https://ebikunn1234.github.io/">
     <meta property="og:site_name" content="えびの作成ラボ">
+    <link rel="stylesheet" href="./assets/styles/glide.core.min.css">
+    <link rel="stylesheet" href="./assets/styles/glide.theme.css">
 </head>
 
 <body>
     <img src="./assets/images/logo.png" alt="えびの作成ラボのICON">
-
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="./assets/images/1.png" alt=""></li>
+            <li class="glide__slide"><img src="./assets/images/2.png" alt=""></li>
+            <li class="glide__slide"><img src="./assets/images/3.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
 <p>えびの作成ラボは、えびとシオン、その他の協力者によって作成された小規模なスタジオです。</p>
 <p>基本的には何にも縛られずに、自由に作成をしています。</p>
 <p>リクエストなどは、全てDiscordなどから受けています。</p>
@@ -55,6 +65,7 @@
 <h3>メンバーのYoutubeチャンネル</h3>
 
 
+
 <a href="https://www.youtube.com/@ebikunn1234">えびの実況部屋(えびくん)</a>
 <a href="https://www.youtube.com/@user-sion936">シオミーズ(シオンくん)</a>
 
@@ -80,6 +91,9 @@
 </div>
 
 
-
+<script src="./assets/scripts/glide.min.js"></script>
+<script>
+    new Glide('.glide').mount()
+  </script>
 </body>
 </html>
