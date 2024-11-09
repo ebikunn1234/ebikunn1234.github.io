@@ -33,3 +33,9 @@ body{
 .blog{
     text-align: none;
 }
+video{
+    width: 100%;
+}
+.imgsize{
+    width: 100%;
+}
