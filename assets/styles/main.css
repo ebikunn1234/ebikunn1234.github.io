@@ -54,7 +54,7 @@ a {
     color: black;
     padding: 10px 20px; /* 中の余白 */
     border: none;
-    border-radius: 8px; /* 角を丸く */
+    border-radius: 9px; /* 角を丸く */
     text-decoration: none; /* 下線を消す */
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影をつけて立体感 */
@@ -65,4 +65,10 @@ a:hover {
     background-color: rgb(165, 170, 230);
     transform: translateY(-2px); /* 少し浮かせる */
     cursor: pointer; /* マウスカーソルをポインター */
+}
+p{
+    font-weight: bold;
+}
+h1{
+    font-weight: bold;
 }
