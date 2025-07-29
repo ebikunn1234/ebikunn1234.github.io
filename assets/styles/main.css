@@ -40,9 +40,30 @@ video{
     width: 100%;
 }
 
-.imgss{
+.imgss {
     width: 70%;
-    height: 60%;
-    max-width: 70%;
-    max-height: 60%;
+    height: auto; /* ← ここ重要！ */
+    max-width: 100%;
+    display: block;
+    margin:  auto;
+}
+
+
+a {
+    display: inline-block; /* ボタンっぽくする */
+    background-color: rgb(195, 199, 237);
+    color: black;
+    padding: 10px 20px; /* 中の余白 */
+    border: none;
+    border-radius: 8px; /* 角を丸く */
+    text-decoration: none; /* 下線を消す */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影をつけて立体感 */
+    transition: background-color 0.3s, transform 0.2s; /* ホバー時のアニメーション */
+}
+
+a:hover {
+    background-color: rgb(165, 170, 230);
+    transform: translateY(-2px); /* 少し浮かせる */
+    cursor: pointer; /* マウスカーソルをポインターに */
 }
