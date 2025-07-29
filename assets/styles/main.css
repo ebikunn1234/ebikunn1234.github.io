@@ -43,4 +43,6 @@ video{
 .imgss{
     width: 70%;
     height: 60%;
+    max-width: 70%;
+    max-height: 60%;
 }
