@@ -64,5 +64,5 @@ a {
 a:hover {
     background-color: rgb(165, 170, 230);
     transform: translateY(-2px); /* 少し浮かせる */
-    cursor: pointer; /* マウスカーソルをポインターに */
+    cursor: pointer; /* マウスカーソルをポインター */
 }
