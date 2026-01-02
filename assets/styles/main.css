@@ -84,3 +84,16 @@ header {
     gap: 20px;           /* 要素同士の間隔 */
     background-color: aliceblue;
 }
+
+.texta{
+display: inline-block; /* ボタンっぽくする */
+    background-color: aliceblue;
+    color: black;
+    padding: 0px 0px; /* 中の余白 */
+    border: none;
+    border-radius: 9px; /* 角を丸く */
+    text-decoration: none; /* 下線を消す */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影をつけて立体感 */
+    transition: background-color 0.3s, transform 0.2s; /* ホバー時のアニメーション */
+}
