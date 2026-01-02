@@ -78,6 +78,9 @@ br{
 .credit{
     margin-top: 50px;
 }
-header{
-    background-color: rgb(187, 247, 247);
+header {
+    display: flex;       /* 子要素を横並びにする */
+    align-items: center; /* 高さを中央揃え */
+    gap: 20px;           /* 要素同士の間隔 */
+    background-color: aliceblue;
 }
