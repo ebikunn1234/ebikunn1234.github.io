@@ -94,6 +94,5 @@ display: inline-block; /* ボタンっぽくする */
     border-radius: 9px; /* 角を丸く */
     text-decoration: none; /* 下線を消す */
     font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影をつけて立体感 */
-    transition: background-color 0.3s, transform 0.2s; /* ホバー時のアニメーション */
+
 }
